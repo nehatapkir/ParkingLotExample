@@ -9,10 +9,10 @@ namespace ParkingLotTests
     [TestClass]
     public class AirportParkingLotTests
     {
-        private IParkedVehicleRepository? parkedVehicleRepository;
-        private IFeesCalculationStrategy? feesCalculationStrategy;
-        private IParkingLot? parkingLot;
-        private ParkingLotDetails ? airportParking;
+        private IParkedVehicleRepository parkedVehicleRepository;
+        private IFeesCalculationStrategy feesCalculationStrategy;
+        private IParkingLot parkingLot;
+        private ParkingLotDetails airportParking;
 
         [TestInitialize]
         public void Setup()

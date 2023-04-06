@@ -4,7 +4,7 @@ namespace ParkingLotTests.Builders
 {
     public class MallParkingLotBuilder : ParkingLotBuilder
     {
-        private MallParkingLotDetails? parkingLot;
+        private MallParkingLotDetails parkingLot;
         private decimal CarParkingRate;
         private decimal MotorcycleParkingRate;
         private decimal TruckParkingRate;
