@@ -53,8 +53,6 @@ namespace ParkingLotTests
             Assert.AreEqual(feesCar, 140);
             Assert.AreEqual(feesMotorcycle, 40);
         }
-
-
         private void InitVehicleParkingRecords(VehicleType vehicleType, int noOfSpots)
         {
             for(int i = 0; i < noOfSpots; i++)
